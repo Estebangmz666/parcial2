@@ -1,0 +1,4 @@
+2024-10-16 14:41:13 [INFO]: Usuario hizo una reserva con codigo: 1
+2024-10-16 14:50:07 [INFO]: Usuario hizo una reserva con código: 2
+2024-10-16 14:51:14 [INFO]: Usuario hizo una reserva con código: 3
+2024-10-16 15:08:29 [INFO]: Usuario hizo una reserva con código: 4

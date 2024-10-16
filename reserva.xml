@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.11" class="java.beans.XMLDecoder">
+ <object class="com.example.ejercicio1.Reserva">
+  <void property="cliente">
+   <string>Esteban</string>
+  </void>
+  <void property="codigo">
+   <int>4</int>
+  </void>
+  <void property="fechaReserva">
+   <string>2024-05-12</string>
+  </void>
+  <void property="numeroHabitacion">
+   <int>101</int>
+  </void>
+  <void property="tipoHabitacion">
+   <string>Sencilla</string>
+  </void>
+  <void property="total">
+   <double>1350000.0</double>
+  </void>
+ </object>
+</java>
