@@ -61,7 +61,7 @@ public class Main {
         SerializadorXML.serializarReservaXML(reserva, archivoXML);
         SerializadorBinario.serializarReservaBinario(reserva, archivoBinario);
     
-        logToFile("INFO", "Usuario hizo una reserva con código: " + (codigo + 1));
+        logToFile("INFO", "Usuario hizo una reserva con codigo: " + (codigo + 1));
     
         guardarCodigo(codigo + 1);
     
