@@ -3,11 +3,13 @@ package com.example.ejercicio1;
 import java.util.ArrayList;
 import java.util.List;
 
+//Clase model que define los atributos de que va a tener cada habitación de la reserva
 public class Habitacion {
     private int numero;
     private String tipoHabitacion;
     private List<Integer> codigosReservas;
 
+    //Constructor
     public Habitacion(int numero, String tipoHabitacion) {
         this.numero = numero;
         this.tipoHabitacion = tipoHabitacion;
@@ -38,6 +40,7 @@ public class Habitacion {
         this.codigosReservas.add(codigoReserva);
     }
 
+    //toString
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

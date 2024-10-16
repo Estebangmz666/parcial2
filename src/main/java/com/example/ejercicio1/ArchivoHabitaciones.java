@@ -9,6 +9,7 @@ public class ArchivoHabitaciones {
 
     private static final String ARCHIVO_HABITACIONES = "habitaciones.txt";
 
+    //Metodo para guardar habitaciones creadas en "habitaciones.txt"
     public static void guardarHabitacionesEnArchivo(List<Habitacion> habitaciones) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(ARCHIVO_HABITACIONES, true))) {
             for (Habitacion habitacion : habitaciones) {

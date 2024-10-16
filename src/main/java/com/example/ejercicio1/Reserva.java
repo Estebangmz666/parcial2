@@ -2,6 +2,8 @@ package com.example.ejercicio1;
 
 import java.io.Serializable;
 
+//Clase que define los atributos de la reserva
+//Se implmenta serializable para que las instancias de la clase puedan ser serializadas
 public class Reserva implements Serializable {
     private String fechaReserva;
     private double total;
@@ -10,8 +12,10 @@ public class Reserva implements Serializable {
     private int numeroHabitacion;
     private int codigo;
 
+    //Constructor vacio para la serialización
     public Reserva (){}
 
+    //Constructor
     public Reserva(String fechaReserva, double total, String tipoHabitacion, String cliente, int numeroHabitacion, int codigo) {
         this.fechaReserva = fechaReserva;
         this.total = total;
@@ -69,6 +73,7 @@ public class Reserva implements Serializable {
         this.numeroHabitacion = numeroHabitacion;
     }
 
+    //toString
     @Override
     public String toString() {
         return "Reserva{" +
